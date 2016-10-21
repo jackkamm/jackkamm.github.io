@@ -1,0 +1,16 @@
+#+BEGIN_COMMENT
+.. title: Welp, I've got a log
+.. slug: welp-ive-got-a-log
+.. date: 2016-10-21 16:54:00 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+
+Well, I've got a blog now.
+Thanks to the author of this nice [[http://streakycobra.github.io/posts/blogging-in-org-mode-with-nikola/][guide]]
+which I used to set up this page
+(and also, thanks to that author for his many contributions to my favorite text editor, [[http://spacemacs.org/][spacemacs]]!)
