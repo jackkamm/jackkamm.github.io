@@ -1,0 +1,50 @@
+#+BEGIN_COMMENT
+.. title: A parallel einsum
+.. slug: a-parallel-einsum
+.. date: 2016-10-21 19:42:32 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+I've written a small package, [[https://github.com/jackkamm/einsum2][einsum2]], for parallelizing some of the functionality
+in the ~einsum~ function of ~numpy~.
+
+~einsum~ is a fantastic function for manipulating multidimensional arrays.
+In a nutshell, it's a generalization of matrix multiplication that allows for easy and readable vectorization
+for all sorts of operations.
+Unfortunately, it is entirely single-threaded, even though many einsum operations
+are embarrassingly parallel.
+By contrast, vanilla matrix or tensor operation (~numpy.dot~ and ~numpy.tensordot~) will be automatically
+parallel if you link ~numpy~ against a parallel implementation of BLAS (such as Intel MKL or OpenBLAS).
+
+Unfortunately, expressing ~einsum~ in terms of ~dot~ or ~tensordot~ can lead to less readable
+and more verbose code, and in many cases is not even possible.
+One common example is "batched matrix multiplication", such as ~np.einsum("ijk,ikl->ijl", a, b)~,
+where we perform a matrix multiplication for each value of the index ~i~.
+For example, ~i~ may be an index ranging over each datapoint in a dataset,
+and we are outputting a value for each point.
+
+Batched matrix multiplication cannot be expressed as a ~dot~ or ~tensordot~.
+It can be expressed in terms of another function,
+~numpy.matmul~, but this operation is still single-threaded (though this may eventually change --
+last year, Intel introduced [[https://software.intel.com/en-us/articles/introducing-batch-gemm-operations][batched GEMM]] operations).
+
+With that in mind, I've written [[https://github.com/jackkamm/einsum2][einsum2]] to parallelize a subset of the functionality in
+~einsum~. It is also compatible with the awesome [[https://github.com/HIPS/autograd][autograd]] package, and allows for automatic differentiation.
+
+Under the hood, ~einsum2~ is just a parallel implementation of batched matrix multiplication, 
+and rearranges ~einsum~ expressions in terms of batched matrix multiplies.
+~einsum2~ can handle ~einsum~ expressions that can be rewritten as ~dot~, ~tensordot~,
+or ~matmul~, but cannot handle ~einsum~ operations that involve repeated subscripts
+on the same array (these correspond to summing over diagonals in ~einsum~).
+It also only works for two input arrays at a time.
+
+I just wrote ~einsum2~ today and it is still rather rough. I've only implemented the
+form of ~einsum~ syntax that expresses subscripts in lists,
+though I also plan to implement the other form of ~einsum~ syntax
+that expresses the subscripts in terms of a single string.
+Compiling is also a bit awkward, especially on OSX.
+Any feedback or comments on how to improve would be appreciated!
