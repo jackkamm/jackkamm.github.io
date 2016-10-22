@@ -42,9 +42,6 @@ or ~matmul~, but cannot handle ~einsum~ operations that involve repeated subscri
 on the same array (these correspond to summing over diagonals in ~einsum~).
 It also only works for two input arrays at a time.
 
-I just wrote ~einsum2~ today and it is still rather rough. I've only implemented the
-form of ~einsum~ syntax that expresses subscripts in lists,
-though I also plan to implement the other form of ~einsum~ syntax
-that expresses the subscripts in terms of a single string.
-Compiling is also a bit awkward, especially on OSX.
+I just wrote ~einsum2~ today and it is still rather rough.
+Most notably, compiling is a bit awkward, especially on OSX.
 Any feedback or comments on how to improve would be appreciated!
