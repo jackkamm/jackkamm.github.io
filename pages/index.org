@@ -78,16 +78,16 @@ the emacs text editor, board and video games, and vegetarian food.
 
 + *One and Two Locus Likelihoods Under Complex Demography.*\\
   Statistics, UC Berkeley, December 2015.\\
-  [[../pdfs/thesis.pdf][{pdf}]]
+  [[./thesis.pdf][{pdf}]]
 
 ** Posters
 
 + *LDpop: 2-locus likelihoods for recombination map estimation under variable population size.*\\
   Probabilistic Modeling in Genomics @ Oxford, 2016.\\
-  [[../pdfs/ldpop_poster.pdf][{pdf}]]
+  [[./ldpop_poster.pdf][{pdf}]]
 + *momi: a new method for computing the multipopulation sample frequency spectrum.*\\
   Probabilistic Modeling in Genomics @ Cold Spring Harbor, 2015.\\
-  [[../pdfs/momi_poster.pdf][{pdf}]]
+  [[./momi_poster.pdf][{pdf}]]
 
 * Links
 + [[http://www.stat.berkeley.edu/~jkamm/][Previous webpage @ Berkeley]]
