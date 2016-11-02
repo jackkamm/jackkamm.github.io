@@ -1,0 +1,96 @@
+#+BEGIN_COMMENT
+.. title: John "Jack" Kamm
+.. slug: index
+.. date: 2016-11-01 20:58:10 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: John "Jack" Kamm's personal webpage
+.. type: text
+#+END_COMMENT
+
+#+attr_html: :width 500px
+[[../images/parthenon.JPG]]
+
+*Email:* jk21 at sanger dot ac dot uk
+
+* About me
+
+I am a postdoc at the [[http://www.sanger.ac.uk/][Wellcome Trust Sanger Institute]],
+supervised by [[http://www.sanger.ac.uk/people/directory/durbin-richard][Richard Durbin]].
+Previously, I completed my Ph.D. in Statistics
+at UC Berkeley, supervised by [[https://people.eecs.berkeley.edu/~yss/][Yun S. Song]].
+
+My research centers on the coalescent, a fundamental stochastic process for population genetics,
+and involves both a probabilistic side, discovering new insights about the coalescent,
+and a statistical side, using the coalescent to infer demographic history, recombination rates, and genealogies. 
+
+More generally, I am interested in statistics, mathematics, and applications to genetics.
+This includes topics such as graphical models, tensor analysis, time-series, and genome-wide association studies (GWAS).
+On a more personal level, I enjoy the Python programming language,
+the emacs text editor, board and video games, and vegetarian food.
+
+* Research
+  
+** Publications
+
++ *Efficient computation of the joint sample frequency spectra for multiple populations.*\\
+  Kamm, J.A., Terhorst, J., and Song, Y.S.\\
+  /Journal of Computational and Graphical Statistics/, 2016, in press.\\
+  [[http://www.tandfonline.com/doi/abs/10.1080/10618600.2016.1159212][{Journal}]]
+  [[http://arxiv.org/abs/1503.01133][{Preprint}]]
+  [[https://github.com/popgenmethods/momi][{Software}]]
+
++ *Two-Locus Likelihoods under Variable Population Size and Fine-Scale Recombination Rate Estimation.*\\
+  Kamm, J.A.*, Spence, J.P.*, Chan, J., and Song, Y.S. (*contributed equally)\\
+  /Genetics/, Vol. 203 No. 3 (2016) 1381-1399 2016.\\
+  [[http://www.genetics.org/content/203/3/1381][{Journal}]]
+  [[http://arxiv.org/abs/1510.06017][{Preprint}]]
+  [[https://github.com/popgenmethods/ldpop][{Software}]]
+
++ *The site frequency spectrum for general coalescents.*\\
+  Spence, J.*, Kamm, J.A.*, and Song, Y.S. (*contributed equally)\\
+  /Genetics/, Vol. 202 No. 4 (2016) 1549-1561.\\
+  [[http://www.genetics.org/content/genetics/202/4/1549.full.pdf][{Journal}]]
+  [[http://arxiv.org/abs/1510.05631][{Preprint}]]
+
++ *Decoding coalescent hidden Markov models in linear time.*\\
+  Harris, K., Sheehan, S., Kamm, J.A., Song, Y.S.\\
+  /Proc. 18th Annual Intl. Conf. on Research in Computational Molecular Biology (RECOMB)/,
+  LNBI Vol. 8394, (2014), pp 100-114.\\
+  [[http://dx.doi.org/10.1007/978-3-319-05269-4_8][{Journal}]] 
+	[[http://arxiv.org/abs/1403.0858][{Preprint}]]
+
++ *Approximate sampling formulae for general finite-alleles models of mutation.*\\
+  Bhaskar, A., Kamm, J.A., and Song, Y.S.\\
+  /Advances in Applied Probability/, 44 (2012) 408-428.\\
+  [[http://projecteuclid.org/euclid.aap/1339878718][{Journal}]]
+  [[http://arxiv.org/abs/1109.2386][{Preprint}]]
+
+** Preprints
+
++ *Inference of complex population histories using whole-genome sequences from multiple populations.*\\
+  Steinrücken, M., Kamm, J.A., and Song, Y.S.\\
+  [[http://dx.doi.org/10.1101/026591][{Preprint}]]
+  [[https://sourceforge.net/projects/dical2][{Software}]]
+
+** Ph.D. Thesis
+
++ *One and Two Locus Likelihoods Under Complex Demography.*\\
+  Statistics, UC Berkeley, December 2015.\\
+  [[../pdfs/thesis.pdf][{pdf}]]
+
+** Posters
+
++ *LDpop: 2-locus likelihoods for recombination map estimation under variable population size.*\\
+  Probabilistic Modeling in Genomics @ Oxford, 2016.\\
+  [[../pdfs/ldpop_poster.pdf][{pdf}]]
++ *momi: a new method for computing the multipopulation sample frequency spectrum.*\\
+  Probabilistic Modeling in Genomics @ Cold Spring Harbor, 2015.\\
+  [[../pdfs/momi_poster.pdf][{pdf}]]
+
+* Links
++ [[http://www.stat.berkeley.edu/~jkamm/][Previous webpage @ Berkeley]]
++ [[https://github.com/jackkamm][Github]]
++ [[../blog][Blog]]
++ My parents run a human rights organization, [[http://duihua.org][Dui Hua]], that does good work.

@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Jack Kamm"  # (translatable)
-BLOG_TITLE = "Musings on snackematics"  # (translatable)
+BLOG_TITLE = "Jack Kamm's webpage"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://jackkamm.github.io/"
@@ -26,7 +26,7 @@ SITE_URL = "https://jackkamm.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://jackkamm.github.io/"
 BLOG_EMAIL = "jackkamm@gmail.com"
-BLOG_DESCRIPTION = "Some blog?"  # (translatable)
+BLOG_DESCRIPTION = "Statistics, population genetics, emacs, Python, and whatever else catches my fancy"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -134,6 +134,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/blog", "Blog"),
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
@@ -175,14 +176,14 @@ THEME_COLOR = '#5670d4'
 #
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("blog/*.rst", "blog", "post.tmpl"),
+    ("blog/*.txt", "blog", "post.tmpl"),
+    ("blog/*.html", "blog", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "story.tmpl"),
-    ("pages/*.txt", "pages", "story.tmpl"),
-    ("pages/*.html", "pages", "story.tmpl"),
+    ("pages/*.rst", "", "story.tmpl"),
+    ("pages/*.txt", "", "story.tmpl"),
+    ("pages/*.html", "", "story.tmpl"),
 )
 
 
@@ -276,8 +277,8 @@ COMPILERS = {
 COMPILERS["orgmode"] = ('.org',)
 
 # Add org files to your POSTS, PAGES
-POSTS = POSTS + (("posts/*.org", "posts", "post.tmpl"),)
-PAGES = PAGES + (("stories/*.org", "stories", "story.tmpl"),)
+POSTS = POSTS + (("blog/*.org", "blog", "post.tmpl"),)
+PAGES = PAGES + (("pages/*.org", "", "story.tmpl"),)
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
@@ -479,7 +480,7 @@ HIDDEN_AUTHORS = ['Guest']
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
