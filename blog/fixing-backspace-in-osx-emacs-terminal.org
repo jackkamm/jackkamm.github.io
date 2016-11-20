@@ -1,0 +1,35 @@
+#+BEGIN_COMMENT
+.. title: Fix backspace ^? problems in OSX emacs terminal emulators
+.. slug: fixing-backspace-in-osx-emacs-terminal
+.. date: 2016-11-20 15:15:22 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+I sometimes like to use ~term~, ~ansi-term~, or ~multi-term~ to
+fire up shells in emacs. Recently I noticed a subtle problem with these
+shells in OSX: in certain programs (such as ~vim~ and ~less~), the backspace key will insert a string ~^?~
+instead of deleting.
+
+The reason for this is that ~stty erase~ is unset. You can check this
+by typing ~stty -a~ within these terminal emulators; in the output you will see that
+: ...; erase = <undef>; ...
+whereas we want ~erase = ^?~. (~^?~, i.e. Control+Question mark,
+is the raw key mapped to backspace).
+
+The terminal emulator should be setting this key from the ~eterm-color~
+TERMINFO file, but for some reason I couldn't get this to work properly
+on OSX (and I tried for awhile!).
+So to fix this, I instead wound up adding the following to my ~.zshrc~
+(use ~.bashrc~ if you use ~bash~):
+#+BEGIN_EXAMPLE
+if [[ -n $INSIDE_EMACS && $(uname) == 'Darwin' ]]; then
+    stty ek
+fi
+#+END_EXAMPLE
+This snippet checks if we are starting up a shell inside OSX emacs,
+and if so, sets backspace to use the system defaults.
+Instead of ~stty ek~, you can also do ~stty erase ^\?~.
