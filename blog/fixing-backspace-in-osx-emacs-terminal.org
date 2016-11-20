@@ -22,7 +22,7 @@ is the raw key mapped to backspace).
 
 The terminal emulator should be setting this key from the ~eterm-color~
 terminfo file, but for some reason I couldn't get this to work properly
-on OSX (other settings within the terminfo file were being read, but for some reason
+on OSX (other settings within the terminfo file appeared to be read, but for some reason
 the setting of backspace was being ignored).
 So to fix this, I instead wound up adding the following to my ~.zshrc~
 (use ~.bashrc~ if you use ~bash~):
