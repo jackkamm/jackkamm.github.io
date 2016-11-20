@@ -21,8 +21,9 @@ whereas we want ~erase = ^?~. (~^?~, i.e. Control+Question mark,
 is the raw key mapped to backspace).
 
 The terminal emulator should be setting this key from the ~eterm-color~
-TERMINFO file, but for some reason I couldn't get this to work properly
-on OSX (and I tried for awhile!).
+terminfo file, but for some reason I couldn't get this to work properly
+on OSX (other settings within the terminfo file were being read, but for some reason
+the setting of backspace was being ignored).
 So to fix this, I instead wound up adding the following to my ~.zshrc~
 (use ~.bashrc~ if you use ~bash~):
 #+BEGIN_EXAMPLE
