@@ -1,0 +1,76 @@
+#+BEGIN_COMMENT
+.. title: Directory tracking in emacs terminal emulators
+.. slug: directory-tracking-in-emacs-terminal-emulators
+.. date: 2016-11-20 21:36:46 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+Emacs has a number of shells and terminal emulators.
+~eshell~ and ~shell~ have some nice features but are not full featured
+terminal emulators: they can't run interactive programs such as ~top~
+and ~less~.
+Other emacs shells like ~term~, ~ansi-term~, and ~multi-term~ *are* full featured terminal emulators,
+but miss out on some advantages of ~eshell~ and ~shell~.
+Most importantly, they don't do "directory tracking", where emacs
+uses your working directory in the shell as the default directory
+for opening files.
+
+You can add directory tracking to ~term~, ~ansi-term~,
+and ~multi-term~ with a little bit of magic in your ~.bashrc~
+or ~.zshrc~. In my ~.zshrc~, I have this snippet,
+partially based on this [[http://stackoverflow.com/questions/367442/getting-emacs-ansi-term-and-zsh-to-play-nicely/10050104#10050104][stackoverflow]] answer:
+#+BEGIN_EXAMPLE
+if [ -n "$INSIDE_EMACS" ]; then
+    # function to set the dired and host for ansiterm
+    set_eterm_dir() {
+        print -P "\033AnSiTu %n"
+        print -P "\033AnSiTh" "$(hostname -f)"
+        print -P "\033AnSiTc %d"
+    }
+
+    # call prmptcmd whenever prompt is redrawn
+    precmd_functions=($precmd_functions set_eterm_dir)
+fi
+#+END_EXAMPLE
+Here, the function ~set_eterm_dir~ tells emacs
+what my current working directory is. It's added
+to the list ~precmd_functions~ so that it's called (and my emacs directory updated)
+whenever the prompt is drawn.
+~set_eterm_dir~ works by printing out certain escaped strings
+to the terminal: ~\033~ is an escape character code,
+while ~AnSiTu~, ~AnSiTh~, and ~AnSiTc~ tell the emacs terminal
+your username, hostname, and working directory.
+For simple cases only ~AnSiTc~ is needed,
+but if you are also going to enable remote directory tracking (below),
+you'll need to set ~AnSiTu~ and ~AnSiTh~ to reset your username
+and hostname after you're done ssh'ing around.
+
+As mentioned above, you can even set directory tracking on remote machines!
+Then ~emacs~ knows to open files through TRAMP when you're ssh'd somewhere.
+To do this, you'll need to set your ~.bashrc~ or ~.zshrc~ on the remote machine.
+This is from my ~.bashrc~ on a remote server:
+#+BEGIN_EXAMPLE
+function set-eterm-dir {
+    echo -e "\033AnSiTc" "$(pwd)"
+
+    ## "farm" is the name of the server in my .ssh/config
+    ## replace it with your server's name, or with $(hostname -f)
+    ## you may also want to add 'echo -e "\033AnSiTu" "$LOGNAME"'
+    echo -e "\033AnSiTh" "farm" 
+}
+if [ "$TERM" = "eterm-color" ]; then
+    PROMPT_COMMAND=set-eterm-dir
+fi
+#+END_EXAMPLE
+This snippet is based on a hint from the [[https://www.emacswiki.org/emacs/AnsiTermHints#toc5][EmacsWiki]] but much simplified.
+~PROMPT_COMMAND~ is called whenever the prompt is drawn in bash.
+We set it to the function
+~set-eterm-dir~ that tells the emacs terminal emulator
+our directory and hostname.
+Notice I manually set the hostname to "farm". This is because
+I have named the Host as "farm" in my ~.ssh/config~, and I want
+TRAMP to use the host settings in that file (e.g. automatic X11 forwarding).
