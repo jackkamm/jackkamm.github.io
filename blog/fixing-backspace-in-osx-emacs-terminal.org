@@ -31,5 +31,5 @@ if [[ -n $INSIDE_EMACS && $(uname) == 'Darwin' ]]; then
 fi
 #+END_EXAMPLE
 This snippet checks if we are starting up a shell inside OSX emacs,
-and if so, sets backspace to use the system defaults.
+and if so, manually sets backspace to use the system defaults.
 Instead of ~stty ek~, you can also do ~stty erase ^\?~.
