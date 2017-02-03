@@ -34,6 +34,12 @@ the emacs text editor, board and video games, and vegetarian food.
   
 ** Publications
 
++ *Robust and scalable inference of population history from hundreds of unphased whole genomes*\\
+  Terhorst, J., Kamm, J.A., and Song, Y.S.\\
+  /Nature Genetics/, Vol. 49 (2017) 303-309.\\
+  [[http://dx.doi.org/10.1038/ng.3748][{Journal}]]
+  [[https://github.com/popgenmethods/smcpp][{Software}]]
+
 + *Efficient computation of the joint sample frequency spectra for multiple populations.*\\
   Kamm, J.A., Terhorst, J., and Song, Y.S.\\
   /Journal of Computational and Graphical Statistics/, 2016, in press.\\
