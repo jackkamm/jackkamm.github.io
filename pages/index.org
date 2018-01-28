@@ -16,8 +16,8 @@
 
 * About me
 
-I am a postdoc at the [[http://www.sanger.ac.uk/][Wellcome Trust Sanger Institute]],
-supervised by [[http://www.sanger.ac.uk/people/directory/durbin-richard][Richard Durbin]].
+I am a postdoc working at the [[http://www.sanger.ac.uk/][Wellcome Trust Sanger Institute]] and the
+[[https://www.gen.cam.ac.uk/][Cambridge Genetics Department]], supervised by [[http://www.sanger.ac.uk/people/directory/durbin-richard][Richard Durbin]].
 Previously, I completed my Ph.D. in Statistics
 at UC Berkeley, supervised by [[https://people.eecs.berkeley.edu/~yss/][Yun S. Song]].
 
