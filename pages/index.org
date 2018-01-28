@@ -34,6 +34,11 @@ the emacs text editor, board and video games, and vegetarian food.
   
 ** Publications
 
++ *Terminal Pleistocene Alaskan genome reveals first founding population of Native Americans*\\
+  Moreno-Mayar, J.V., Potter, B.A., Vinner, L, Steinrücken, M. Rasmussen, S., Terhorst, J., Kamm, J.A., Albrechtsen, A., Malaspinas, A.-S., Sikora, M., Reuther, J.D., Irish, J.D., Malhi, R.S., Orlando, L., Song, Y.S., Nielsen, R., Meltzer, D.J., and Willerslev, E.\\
+  /Nature/, Vol. 553 (2018) 203-207.\\
+  [[https://www.nature.com/articles/nature25173][{Journal}]] 
+
 + *Robust and scalable inference of population history from hundreds of unphased whole genomes*\\
   Terhorst, J., Kamm, J.A., and Song, Y.S.\\
   /Nature Genetics/, Vol. 49 (2017) 303-309.\\
@@ -74,6 +79,10 @@ the emacs text editor, board and video games, and vegetarian food.
   [[http://arxiv.org/abs/1109.2386][{Preprint}]]
 
 ** Preprints
+
++ *Model-based detection and analysis of introgressed Neanderthal ancestry in modern humans.*\\
+  Steinrücken, M., Spence, J.P., Kamm, J.A., Wieczorek, E., and Song, Y.S.\\
+  [[https://www.biorxiv.org/content/early/2017/12/01/227660][{Preprint}]] 
 
 + *Inference of complex population histories using whole-genome sequences from multiple populations.*\\
   Steinrücken, M., Kamm, J.A., and Song, Y.S.\\
