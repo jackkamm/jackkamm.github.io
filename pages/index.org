@@ -9,8 +9,8 @@
 .. type: text
 #+END_COMMENT
 
-#+attr_html: :width 500px
-[[../images/parthenon.JPG]]
+#+attr_html: :width 150px
+[[../images/Jack.jpg]]
 
 *Email:* jk21 at sanger dot ac dot uk
 
