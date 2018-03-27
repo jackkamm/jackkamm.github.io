@@ -27,12 +27,27 @@ and a statistical side, using the coalescent to infer demographic history, recom
 
 More generally, I am interested in statistics, mathematics, and applications to genetics.
 This includes topics such as graphical models, tensor analysis, time-series, and genome-wide association studies (GWAS).
-On a more personal level, I enjoy the Python programming language,
-the emacs text editor, board and video games, and vegetarian food.
 
 * Research
   
+** Preprints
+
++ *Efficiently inferring the demographic history of many populations with allele count data*\\
+  Kamm, J.A., Terhorst, J., Durbin, R, and Song, Y.S.\\
+  [[https://www.biorxiv.org/content/early/2018/03/23/287268][{Preprint}]]
+  [[https://github.com/popgenmethods/momi2][{Software: momi2}]]
+
++ *Inference of complex population histories using whole-genome sequences from multiple populations*\\
+  Steinrücken, M., Kamm, J.A., and Song, Y.S.\\
+  [[http://dx.doi.org/10.1101/026591][{Preprint}]]
+  [[https://sourceforge.net/projects/dical2][{Software: diCal2}]]
+
 ** Publications
+
++ *Model-based detection and analysis of introgressed Neanderthal ancestry in modern humans*\\
+  Steinrücken, M., Spence, J.P., Kamm, J.A., Wieczorek, E., and Song, Y.S.\\
+  /Molecular Ecology/, in press.\\
+  [[https://www.biorxiv.org/content/early/2017/12/01/227660][{Preprint}]]
 
 + *Terminal Pleistocene Alaskan genome reveals first founding population of Native Americans*\\
   Moreno-Mayar, J.V., Potter, B.A., Vinner, L, Steinrücken, M. Rasmussen, S., Terhorst, J., Kamm, J.A., Albrechtsen, A., Malaspinas, A.-S., Sikora, M., Reuther, J.D., Irish, J.D., Malhi, R.S., Orlando, L., Song, Y.S., Nielsen, R., Meltzer, D.J., and Willerslev, E.\\
@@ -43,21 +58,21 @@ the emacs text editor, board and video games, and vegetarian food.
   Terhorst, J., Kamm, J.A., and Song, Y.S.\\
   /Nature Genetics/, Vol. 49 (2017) 303-309.\\
   [[http://dx.doi.org/10.1038/ng.3748][{Journal}]]
-  [[https://github.com/popgenmethods/smcpp][{Software}]]
+  [[https://github.com/popgenmethods/smcpp][{Software: SMC++}]]
 
 + *Efficient computation of the joint sample frequency spectra for multiple populations.*\\
   Kamm, J.A., Terhorst, J., and Song, Y.S.\\
   /Journal of Computational and Graphical Statistics/, Vol. 26, No. 1 (2017) 182-194.\\
   [[http://www.tandfonline.com/doi/abs/10.1080/10618600.2016.1159212][{Journal}]]
   [[http://arxiv.org/abs/1503.01133][{Preprint}]]
-  [[https://github.com/popgenmethods/momi][{Software}]]
+  [[https://github.com/popgenmethods/momi][{Software: momi}]]
 
 + *Two-Locus Likelihoods under Variable Population Size and Fine-Scale Recombination Rate Estimation.*\\
   Kamm, J.A.*, Spence, J.P.*, Chan, J., and Song, Y.S. (*contributed equally)\\
   /Genetics/, Vol. 203 No. 3 (2016) 1381-1399 2016.\\
   [[http://www.genetics.org/content/203/3/1381][{Journal}]]
   [[http://arxiv.org/abs/1510.06017][{Preprint}]]
-  [[https://github.com/popgenmethods/ldpop][{Software}]]
+  [[https://github.com/popgenmethods/ldpop][{Software: LDpop}]]
 
 + *The site frequency spectrum for general coalescents.*\\
   Spence, J.*, Kamm, J.A.*, and Song, Y.S. (*contributed equally)\\
@@ -78,17 +93,6 @@ the emacs text editor, board and video games, and vegetarian food.
   [[http://projecteuclid.org/euclid.aap/1339878718][{Journal}]]
   [[http://arxiv.org/abs/1109.2386][{Preprint}]]
 
-** Preprints
-
-+ *Model-based detection and analysis of introgressed Neanderthal ancestry in modern humans.*\\
-  Steinrücken, M., Spence, J.P., Kamm, J.A., Wieczorek, E., and Song, Y.S.\\
-  [[https://www.biorxiv.org/content/early/2017/12/01/227660][{Preprint}]] 
-
-+ *Inference of complex population histories using whole-genome sequences from multiple populations.*\\
-  Steinrücken, M., Kamm, J.A., and Song, Y.S.\\
-  [[http://dx.doi.org/10.1101/026591][{Preprint}]]
-  [[https://sourceforge.net/projects/dical2][{Software}]]
-
 ** Ph.D. Thesis
 
 + *One and Two Locus Likelihoods Under Complex Demography.*\\
@@ -97,6 +101,9 @@ the emacs text editor, board and video games, and vegetarian food.
 
 ** Posters
 
++ *Learning history from the SFS of low- and high-coverage ancient DNA.*\\
+  PopGroup @ University of Bristol, 2018.\\
+  [[./ancient_momi.pdf][{pdf}]]
 + *LDpop: 2-locus likelihoods for recombination map estimation under variable population size.*\\
   Probabilistic Modeling in Genomics @ Oxford, 2016.\\
   [[./ldpop_poster.pdf][{pdf}]]
@@ -105,7 +112,4 @@ the emacs text editor, board and video games, and vegetarian food.
   [[./momi_poster.pdf][{pdf}]]
 
 * Links
-+ [[http://www.stat.berkeley.edu/~jkamm/][Previous webpage @ Berkeley]]
 + [[https://github.com/jackkamm][Github]]
-+ [[../blog][Blog]]
-+ My parents run a human rights organization, [[http://duihua.org][Dui Hua]], that does good work.
