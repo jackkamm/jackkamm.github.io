@@ -133,12 +133,13 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        #("/blog", "Blog"),
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
+    #DEFAULT_LANG: (
+    #    ("/blog", "Blog"),
+    #    ("/archive.html", "Archive"),
+    #    ("/categories/", "Tags"),
+    #    ("/rss.xml", "RSS feed"),
+    #),
+    DEFAULT_LANG: tuple(),
 }
 
 # Name of the theme to use.
