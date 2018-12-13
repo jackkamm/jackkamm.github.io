@@ -16,14 +16,15 @@ title: CV
 
 ### Publications
 
--   **Model-based detection and analysis of introgressed Neanderthal
-    ancestry in modern humans.** Steinrücken, M., Spence, J.P., Kamm, J.A., Wieczorek, E., and Song, Y.S. *Molecular Ecology*, in press. 
-    [{Preprint}](https://www.biorxiv.org/content/early/2017/12/01/227660)
-
 -  **The first horse herders and the impact of early Bronze Age steppe expansions into Asia.**
    de Barros Damgaard, P., Martiniano, R., Kamm, J., Moreno-Mayar, J. V., ... Durbin, R., and Willerslev, E.
    *Science* (2018), eaar7711.
    [{Journal}](http://science.sciencemag.org/content/early/2018/05/08/science.aar7711)
+
+-   **Model-based detection and analysis of introgressed Neanderthal
+    ancestry in modern humans.** Steinrücken, M., Spence, J.P., Kamm, J.A., Wieczorek, E., and Song, Y.S. *Molecular Ecology* (2018). 
+    [{Journal}](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14565)
+    [{Preprint}](https://www.biorxiv.org/content/early/2017/12/01/227660)
 
 -   **Terminal Pleistocene Alaskan genome reveals first founding
     population of Native Americans.** 
