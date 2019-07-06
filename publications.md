@@ -10,20 +10,26 @@ title: Publications
     Kamm, J.\*, Miller S., Li L., Caldera S., ..., Langelier, C.
     [{Preprint}](https://www.biorxiv.org/content/10.1101/653337v1)
 
--   **Efficiently inferring the demographic history of many populations
-    with allele count data.** Kamm, J.A., Terhorst, J., Durbin, R, and Song, Y.S.
-    [{Preprint}](https://www.biorxiv.org/content/early/2018/03/23/287268)
-    [{Software: momi2}](https://github.com/popgenmethods/momi2)
-
 -   **Inference of complex population histories using whole-genome
-    sequences from multiple populations.** Steinrücken, M., Kamm, J.A., and Song, Y.S. 
+    sequences from multiple populations.** Steinrücken, M., Kamm, J., Spence, J.P., and Song, Y.S.
     [{Preprint}](http://dx.doi.org/10.1101/026591) [{Software: diCal2}](https://sourceforge.net/projects/dical2)
 
 ### Publications
 
+-   **Sepsis Attributed to Bacterial Contamination of Platelets Associated with a Potential Common Source — Multiple States, 2018.**
+    Jones, et al. *Morbidity and Mortality Weekly Report* (2019).
+    [{Journal}](https://www.cdc.gov/mmwr/volumes/68/wr/mm6823a2.htm)
+
+-   **Efficiently inferring the demographic history of many populations
+    with allele count data.** Kamm, J., Terhorst, J., Durbin, R., and Song, Y.S.
+    *Journal of the American Statistical Association* (2019).
+    [{Journal}](https://www.tandfonline.com/doi/full/10.1080/01621459.2019.1635482)
+    [{Preprint}](https://www.biorxiv.org/content/early/2018/03/23/287268)
+    [{Software: momi2}](https://github.com/popgenmethods/momi2)
+
 -  **The first horse herders and the impact of early Bronze Age steppe expansions into Asia.**
    de Barros Damgaard, P., Martiniano, R., Kamm, J., Moreno-Mayar, J. V., ... Durbin, R., and Willerslev, E.
-   *Science* (2018), eaar7711.
+   *Science* (2018).
    [{Journal}](http://science.sciencemag.org/content/early/2018/05/08/science.aar7711)
 
 -   **Model-based detection and analysis of introgressed Neanderthal
