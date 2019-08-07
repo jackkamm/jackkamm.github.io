@@ -25,6 +25,12 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+
+          {% if site.orcid %}
+          <li>
+            <a href="https://orcid.org/0000-0003-2412-756X">orcid:{{ site.orcid }}</a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
