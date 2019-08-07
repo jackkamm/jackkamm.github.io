@@ -5,16 +5,23 @@ title: Publications
 
 ### Preprints
 
+-   **Insights into human genetic variation and population history
+    from 929 diverse genomes.** Bergström, et al.
+    [{Preprint}](https://www.biorxiv.org/content/10.1101/674986v1)
+
 -   **Investigating Transfusion-Related Sepsis using
     Culture-Independent Metagenomic Sequencing.** Crawford, E.\*,
     Kamm, J.\*, Miller S., Li L., Caldera S., ..., Langelier, C.
     [{Preprint}](https://www.biorxiv.org/content/10.1101/653337v1)
 
+### Publications
+
 -   **Inference of complex population histories using whole-genome
     sequences from multiple populations.** Steinrücken, M., Kamm, J., Spence, J.P., and Song, Y.S.
-    [{Preprint}](http://dx.doi.org/10.1101/026591) [{Software: diCal2}](https://sourceforge.net/projects/dical2)
-
-### Publications
+    *PNAS* (2019).
+    [{Journal}](https://www.pnas.org/content/early/2019/08/05/1905060116)
+    [{Preprint}](http://dx.doi.org/10.1101/026591)
+    [{Software: diCal2}](https://sourceforge.net/projects/dical2)
 
 -   **Sepsis Attributed to Bacterial Contamination of Platelets Associated with a Potential Common Source — Multiple States, 2018.**
     Jones, et al. *Morbidity and Mortality Weekly Report* (2019).
