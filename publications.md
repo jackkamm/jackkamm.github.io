@@ -9,12 +9,13 @@ title: Publications
     from 929 diverse genomes.** Bergström, et al.
     [{Preprint}](https://www.biorxiv.org/content/10.1101/674986v1)
 
+### Publications
+
 -   **Investigating Transfusion-Related Sepsis using
     Culture-Independent Metagenomic Sequencing.** Crawford, E.\*,
     Kamm, J.\*, Miller S., Li L., Caldera S., ..., Langelier, C.
+    [{Journal}](https://www.ncbi.nlm.nih.gov/pubmed/31563940)
     [{Preprint}](https://www.biorxiv.org/content/10.1101/653337v3)
-
-### Publications
 
 -   **Inference of complex population histories using whole-genome
     sequences from multiple populations.** Steinrücken, M., Kamm, J., Spence, J.P., and Song, Y.S.
