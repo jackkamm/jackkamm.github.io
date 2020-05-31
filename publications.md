@@ -5,11 +5,23 @@ title: Publications
 
 ### Preprints
 
--   **Insights into human genetic variation and population history
-    from 929 diverse genomes.** Bergström, et al.
-    [{Preprint}](https://www.biorxiv.org/content/10.1101/674986v1)
+- **Upper airway gene expression differentiates COVID-19 from other
+  acute respiratory illnesses and reveals suppression of innate immune
+  responses by SARS-CoV-2.** Mick, E.\*, Kamm, J.\*, Pisco, A., ...,
+  Kistler, A.\*, Langelier, C.\*
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.18.20105171v4)
+
+- **Clinical features, diagnostics, and outcomes of patients
+  presenting with acute respiratory illness: a comparison of patients
+  with and without COVID-19.** Shah, S., et al.
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.02.20082461v1.full)
 
 ### Publications
+
+-   **Insights into human genetic variation and population history
+    from 929 diverse genomes.** Bergström, et al. *Science* (2020).
+    [{Journal}](https://science.sciencemag.org/content/367/6484/eaay5012.abstract)
+    [{Preprint}](https://www.biorxiv.org/content/10.1101/674986v1)
 
 -   **Investigating Transfusion-Related Sepsis using
     Culture-Independent Metagenomic Sequencing.** Crawford, E.\*,
@@ -25,8 +37,10 @@ title: Publications
     [{Preprint}](http://dx.doi.org/10.1101/026591)
     [{Software: diCal2}](https://sourceforge.net/projects/dical2)
 
--   **Sepsis Attributed to Bacterial Contamination of Platelets Associated with a Potential Common Source — Multiple States, 2018.**
-    Jones, et al. *Morbidity and Mortality Weekly Report* (2019).
+-   **Sepsis Attributed to Bacterial Contamination of Platelets
+    Associated with a Potential Common Source — Multiple States,
+    2018.** Jones, S., et al. *Morbidity and Mortality Weekly Report*
+    (2019).
     [{Journal}](https://www.cdc.gov/mmwr/volumes/68/wr/mm6823a2.htm)
 
 -   **Efficiently inferring the demographic history of many populations
