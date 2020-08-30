@@ -5,16 +5,20 @@ title: Publications
 
 ### Preprints
 
+- **N gene variant reduces SARS-CoV-2 test sensitivity.** Vanaerschot,
+  M., et al.
+  [{Preprint}](https://www.biorxiv.org/content/10.1101/2020.08.25.265074v1)
+
+- **High-throughput SARS-CoV-2 and host genome sequencing from single
+  nasopharyngeal swabs.** Gorzynski, J., et al.
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
+
 - **Upper airway gene expression differentiates COVID-19 from other
   acute respiratory illnesses and reveals suppression of innate immune
   responses by SARS-CoV-2.** Mick, E.\*, Kamm, J.\*, Pisco, A., ...,
   Kistler, A.\*, Langelier, C.\*
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.18.20105171v4)
   
-- **High-throughput SARS-CoV-2 and host genome sequencing from single
-  nasopharyngeal swabs.** Gorzynski, J., et al.
-  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
-
 ### Publications
 
 -   **SARS-CoV-2 Community Transmission disproportionately affects
