@@ -10,16 +10,36 @@ title: Publications
   responses by SARS-CoV-2.** Mick, E.\*, Kamm, J.\*, Pisco, A., ...,
   Kistler, A.\*, Langelier, C.\*
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.18.20105171v4)
-
-- **Clinical features, diagnostics, and outcomes of patients
-  presenting with acute respiratory illness: a comparison of patients
-  with and without COVID-19.** Shah, S., et al.
-  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.02.20082461v1.full)
+  
+- **High-throughput SARS-CoV-2 and host genome sequencing from single
+  nasopharyngeal swabs.** Gorzynski, J., et al.
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
 
 ### Publications
 
+-   **SARS-CoV-2 Community Transmission disproportionately affects
+    Latinx population during Shelter-in-Place in San
+    Francisco.** Chamie, G., et al. *Clinical Infectious Diseases*
+    (2020).
+    [{Journal}](https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa1234/5895337)
+    [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.06.15.20132233v1)
+
+-   **Sepsis from an apheresis platelet contaminated with
+    Acinetobacter calcoaceticus/baumannii complex bacteria and
+    Staphylococcus saprophyticus after pathogen reduction.** Fridey,
+    J., et al. *Transfusion* (2020).
+    [{Journal}](https://onlinelibrary.wiley.com/doi/abs/10.1111/trf.15951)
+
+-   **Clinical features, diagnostics, and outcomes of patients
+    presenting with acute respiratory illness: a comparison of patients
+    with and without COVID-19.** Shah, S., et al. *EClinicalMedicine*
+    (2020).
+    [{Journal}](https://www.sciencedirect.com/science/article/pii/S2589537020302625)
+    [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.02.20082461v1.full)
+
 -   **Insights into human genetic variation and population history
-    from 929 diverse genomes.** Bergström, et al. *Science* (2020).
+    from 929 diverse genomes.** Bergström, A., et al. *Science*
+    (2020).
     [{Journal}](https://science.sciencemag.org/content/367/6484/eaay5012.abstract)
     [{Preprint}](https://www.biorxiv.org/content/10.1101/674986v1)
 
