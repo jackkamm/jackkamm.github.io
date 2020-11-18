@@ -5,21 +5,26 @@ title: Publications
 
 ### Preprints
 
-- **N gene variant reduces SARS-CoV-2 test sensitivity.** Vanaerschot,
-  M., et al.
-  [{Preprint}](https://www.biorxiv.org/content/10.1101/2020.08.25.265074v1)
-
 - **High-throughput SARS-CoV-2 and host genome sequencing from single
   nasopharyngeal swabs.** Gorzynski, J., et al.
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
 
+  
+### Publications
+
 - **Upper airway gene expression differentiates COVID-19 from other
   acute respiratory illnesses and reveals suppression of innate immune
   responses by SARS-CoV-2.** Mick, E.\*, Kamm, J.\*, Pisco, A., ...,
-  Kistler, A.\*, Langelier, C.\*
+  Kistler, A.\*, Langelier, C.\* *Nature Communications* (2020).
+  [{Journal}](https://www.nature.com/articles/s41467-020-19587-y)
+  [{Code}](https://github.com/czbiohub/covid19-transcriptomics-pathogenesis-diagnostics-results)
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.18.20105171v4)
   
-### Publications
+- **Identification of a polymorphism in the N gene of SARS-CoV-2 that
+  adversely impacts detection by RT-PCR.** Vanaerschot, M., et
+  al. *Journal of Clinical Microbiology* (2020).
+  [{Journal}](https://jcm.asm.org/content/early/2020/10/16/JCM.02369-20.abstract)
+  [{Preprint}](https://www.biorxiv.org/content/10.1101/2020.08.25.265074v1)
 
 -   **SARS-CoV-2 Community Transmission disproportionately affects
     Latinx population during Shelter-in-Place in San
@@ -28,18 +33,28 @@ title: Publications
     [{Journal}](https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa1234/5895337)
     [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.06.15.20132233v1)
 
--   **Sepsis from an apheresis platelet contaminated with
-    Acinetobacter calcoaceticus/baumannii complex bacteria and
-    Staphylococcus saprophyticus after pathogen reduction.** Fridey,
-    J., et al. *Transfusion* (2020).
-    [{Journal}](https://onlinelibrary.wiley.com/doi/abs/10.1111/trf.15951)
-
 -   **Clinical features, diagnostics, and outcomes of patients
     presenting with acute respiratory illness: a comparison of patients
     with and without COVID-19.** Shah, S., et al. *EClinicalMedicine*
     (2020).
     [{Journal}](https://www.sciencedirect.com/science/article/pii/S2589537020302625)
     [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.02.20082461v1.full)
+
+-   **Complete Genome Sequence of a Novel Coronavirus (SARS-CoV-2)
+    Isolate from Bangladesh.** Saha, S., et al. *Microbiology Resource*
+    Announcements (2020).
+    [{Journal}](https://mra.asm.org/content/9/24/e00568-20.abstract)
+
+-   **Temporal Airway Microbiome Changes Related to Ventilator
+    Associated Pneumonia in Children.** Mourani, P., et al. *European
+    Respiratory Journal* (2020).
+    [{Journal}](https://erj.ersjournals.com/content/early/2020/09/09/13993003.01829-2020.abstract)
+
+-   **Sepsis from an apheresis platelet contaminated with
+    Acinetobacter calcoaceticus/baumannii complex bacteria and
+    Staphylococcus saprophyticus after pathogen reduction.** Fridey,
+    J., et al. *Transfusion* (2020).
+    [{Journal}](https://onlinelibrary.wiley.com/doi/abs/10.1111/trf.15951)
 
 -   **Insights into human genetic variation and population history
     from 929 diverse genomes.** Bergström, A., et al. *Science*
