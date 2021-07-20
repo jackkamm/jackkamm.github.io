@@ -8,5 +8,5 @@ layout: page
 
 I am a statistician and bioinformaticist with experience working in
 population genomics, coalescent theory, ancient DNA, genomic
-epidemiology, and metatranscriptomics.
+epidemiology, metatranscriptomics, and single cell analysis.
 
