@@ -18,3 +18,19 @@ bundle install --path .bundle
 # finally, run jekyll
 bundle exec jekyll serve
 ```
+
+2021-07-19: If getting error:
+
+```
+cannot load such file -- webrick (LoadError)
+```
+
+do 
+
+```
+bundle add webrick
+```
+
+See also:
+
+https://stackoverflow.com/questions/65989040/bundle-exec-jekyll-serve-cannot-load-such-file
