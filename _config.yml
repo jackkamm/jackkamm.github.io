@@ -8,7 +8,7 @@
 # Site settings
 title: Jack Kamm's Homepage
 name: Jack Kamm
-email: jack.kamm@czbiohub.org
+#email: jack.kamm@czbiohub.org
 description: > # this means to ignore newlines until "baseurl:"
   Statistics, genetics, emacs.
 #baseurl: "" # the subpath of your site, e.g. /blog
