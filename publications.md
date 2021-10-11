@@ -5,6 +5,10 @@ title: Publications
 
 ### Preprints
 
+- **Using genomic epidemiology of SARS-CoV-2 to support contact
+  tracing and public health surveillance in rural Humboldt County,
+  California** Stoddard, G., et al.
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2021.09.21.21258385v1)
 - **High-throughput SARS-CoV-2 and host genome sequencing from single
   nasopharyngeal swabs.** Gorzynski, J., et al.
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
