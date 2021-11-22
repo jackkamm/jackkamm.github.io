@@ -34,3 +34,17 @@ bundle add webrick
 See also:
 
 https://stackoverflow.com/questions/65989040/bundle-exec-jekyll-serve-cannot-load-such-file
+
+## Notes 2021-11-22
+
+When I tried to run `bundle exec jekyll serve` today, I got the
+following error:
+
+```
+/home/jack/Documents/jackkamm.github.io/.bundle/ruby/3.0.0/gems/ffi-1.15.3/lib/ffi.rb:3:in `require': cannot load such file -- 3.0/ffi_c (LoadError)`
+```
+
+This was probably due to updated libraries on my Arch system?
+
+I fixed it doing `mv .bundle .bundle.bak` and rerunning the `bundle
+config` and `bundle install` commands above.
