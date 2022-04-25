@@ -5,20 +5,26 @@ title: Publications
 
 ### Preprints
 
-- **Using genomic epidemiology of SARS-CoV-2 to support contact
-  tracing and public health surveillance in rural Humboldt County,
-  California.** Stoddard, G., et al.
-  [{Preprint}](https://www.medrxiv.org/content/10.1101/2021.09.21.21258385v1)
-- **Genomic epidemiologic assessment implicates prolonged silent
-  carriage, virulence factors and transmission between staff and
-  patients in a NICU outbreak of MRSA.** Madera et al.
-  [{Preprint}](https://www.medrxiv.org/content/10.1101/2021.07.28.21261307v1.full)
 - **High-throughput SARS-CoV-2 and host genome sequencing from single
   nasopharyngeal swabs.** Gorzynski, J., et al.
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
 
   
 ### Publications
+
+- **Prolonged silent carriage, genomic virulence potential and
+  transmission between staff and patients characterize a neonatal
+  intensive care unit outbreak of methicillin-resistant Staphylococcus
+  aureus.** Madera et al. *Infection Control & Hospital Epidemiology*
+  (2022).
+  [{Journal}](https://www.cambridge.org/core/journals/infection-control-and-hospital-epidemiology/article/prolonged-silent-carriage-genomic-virulence-potential-and-transmission-between-staff-and-patients-characterize-a-neonatal-intensive-care-unit-nicu-outbreak-of-methicillinresistant-staphylococcus-aureus-mrsa/D8B8B42F489676F2ACC57A4A31FA92E4)
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2021.07.28.21261307v1.full)
+
+- **Using genomic epidemiology of SARS-CoV-2 to support contact
+  tracing and public health surveillance in rural Humboldt County,
+  California.** Stoddard, G., et al. *BMC Public Health* (2022).
+  [{Journal}](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-022-12790-0)
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2021.09.21.21258385v1)
 
 - **Upper airway gene expression differentiates COVID-19 from other
   acute respiratory illnesses and reveals suppression of innate immune
