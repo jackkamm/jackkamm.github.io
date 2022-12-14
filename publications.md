@@ -5,6 +5,11 @@ title: Publications
 
 ### Preprints
 
+- **Leveraging the pulmonary immune response and microbiome for
+  improved lower respiratory tract infection diagnosis in critically
+  ill children.** Mick, E.\*, Tsitsiklis, A.\*, Kamm, J.\*, ...,
+  Langelier, C.
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2022.12.01.22282994v1.full)
 - **High-throughput SARS-CoV-2 and host genome sequencing from single
   nasopharyngeal swabs.** Gorzynski, J., et al.
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
