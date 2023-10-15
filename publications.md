@@ -3,19 +3,28 @@ layout: default
 title: Publications
 ---
 
-### Preprints
-
-- **Leveraging the pulmonary immune response and microbiome for
-  improved lower respiratory tract infection diagnosis in critically
-  ill children.** Mick, E.\*, Tsitsiklis, A.\*, Kamm, J.\*, ...,
-  Langelier, C.
-  [{Preprint}](https://www.medrxiv.org/content/10.1101/2022.12.01.22282994v1.full)
-- **High-throughput SARS-CoV-2 and host genome sequencing from single
-  nasopharyngeal swabs.** Gorzynski, J., et al.
-  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
-
-  
 ### Publications
+
+- **Viral Detection by Reverse Transcriptase Polymerase Chain Reaction
+  in Upper Respiratory Tract and Metagenomic RNA Sequencing in Lower
+  Respiratory Tract in Critically Ill Children With Suspected Lower
+  Respiratory Tract Infection**. Osborne, C. et al. *Pediatric
+  Critical Care Medicine* (2023).
+  [{Journal}](https://journals.lww.com/pccmjournal/fulltext/9900/viral_detection_by_reverse_transcriptase.257.aspx)
+
+- **Integrated host/microbe metagenomics enables accurate lower
+  respiratory tract infection diagnosis in critically ill children.**
+  Mick, E.\*, Tsitsiklis, A.\*, Kamm, J.\*, ..., Mourani, P.,
+  Langelier, C. *Journal of Clinical Investigation* (2023).
+  [{Journal}](https://www.jci.org/articles/view/165904)
+  [{Code}](https://github.com/eranmick/pediatric-mNGS-LRTI-classifier)
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2022.12.01.22282994v1.full)
+
+- **A 2-Gene Host Signature for Improved Accuracy of COVID-19
+  Diagnosis Agnostic to Viral Variants**. Albright, J. et
+  al. *mSystems* (2023).
+  [{Journal}](https://journals.asm.org/doi/full/10.1128/msystems.00671-22)
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2022.01.06.21268498v2)
 
 - **Prolonged silent carriage, genomic virulence potential and
   transmission between staff and patients characterize a neonatal
@@ -25,11 +34,52 @@ title: Publications
   [{Journal}](https://www.cambridge.org/core/journals/infection-control-and-hospital-epidemiology/article/prolonged-silent-carriage-genomic-virulence-potential-and-transmission-between-staff-and-patients-characterize-a-neonatal-intensive-care-unit-nicu-outbreak-of-methicillinresistant-staphylococcus-aureus-mrsa/D8B8B42F489676F2ACC57A4A31FA92E4)
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2021.07.28.21261307v1.full)
 
+- **Deconvoluting complex correlates of COVID-19 severity with a
+  multi-omic pandemic tracking strategy**. Parikh, V. et al. *Nature
+  Communications* (2022).
+  [{Journal}](https://www.nature.com/articles/s41467-022-32397-8)
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2021.08.04.21261547v1)
+  
+- **Functional transcriptomic studies of immune responses and
+  endotoxin tolerance in early human sepsis**. Leligdowicz, A. et
+  al. *Shock: Injury, Inflammation, and Sepsis: Laboratory and
+  Clinical Approaches* (2022).
+  [{Journal}](https://journals.lww.com/shockjournal/Fulltext/2022/06000/Functional_Transcriptomic_Studies_of_Immune.3.aspx)
+
+- **Lower respiratory tract infections in children requiring
+  mechanical ventilation: a multicentre prospective surveillance study
+  incorporating airway metagenomics**. Tsitsiklis, A. et al. *The
+  Lancet Microbe* (2022).
+  [{Journal}](https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(21)00304-9/fulltext)
+
 - **Using genomic epidemiology of SARS-CoV-2 to support contact
   tracing and public health surveillance in rural Humboldt County,
   California.** Stoddard, G., et al. *BMC Public Health* (2022).
   [{Journal}](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-022-12790-0)
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2021.09.21.21258385v1)
+
+- **SARS-CoV-2 infection of rhesus macaques treated early with human
+  COVID-19 convalescent plasma**. Deere, J. et al. *Microbiology
+  Spectrum* (2021).
+  [{Journal}](https://journals.asm.org/doi/full/10.1128/spectrum.01397-21)
+
+- **Community Transmission of Severe Acute Respiratory Syndrome
+  Coronavirus 2 Disproportionately Affects the Latinx Population
+  During Shelter-in-Place in San Francisco.** Chamie, G., et
+  al. *Clinical Infectious Diseases* (2021).
+  [{Journal}](https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa1234/5895337)
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.06.15.20132233v1)
+
+- **Temporal Airway Microbiome Changes Related to Ventilator
+  Associated Pneumonia in Children.** Mourani, P., et al. *European
+  Respiratory Journal* (2021).
+  [{Journal}](https://erj.ersjournals.com/content/early/2020/09/09/13993003.01829-2020.abstract)
+
+- **Identification of a polymorphism in the N gene of SARS-CoV-2 that
+  adversely impacts detection by RT-PCR.** Vanaerschot, M., et
+  al. *Journal of Clinical Microbiology* (2020).
+  [{Journal}](https://jcm.asm.org/content/early/2020/10/16/JCM.02369-20.abstract)
+  [{Preprint}](https://www.biorxiv.org/content/10.1101/2020.08.25.265074v1)
 
 - **Upper airway gene expression differentiates COVID-19 from other
   acute respiratory illnesses and reveals suppression of innate immune
@@ -39,18 +89,9 @@ title: Publications
   [{Code}](https://github.com/czbiohub/covid19-transcriptomics-pathogenesis-diagnostics-results)
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.18.20105171v4)
   
-- **Identification of a polymorphism in the N gene of SARS-CoV-2 that
-  adversely impacts detection by RT-PCR.** Vanaerschot, M., et
-  al. *Journal of Clinical Microbiology* (2020).
-  [{Journal}](https://jcm.asm.org/content/early/2020/10/16/JCM.02369-20.abstract)
-  [{Preprint}](https://www.biorxiv.org/content/10.1101/2020.08.25.265074v1)
-
--   **SARS-CoV-2 Community Transmission disproportionately affects
-    Latinx population during Shelter-in-Place in San
-    Francisco.** Chamie, G., et al. *Clinical Infectious Diseases*
-    (2020).
-    [{Journal}](https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa1234/5895337)
-    [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.06.15.20132233v1)
+- **High-throughput SARS-CoV-2 and host genome sequencing from single
+  nasopharyngeal swabs.** Gorzynski, J., et al (2020).
+  [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.07.27.20163147v2)
 
 -   **Clinical features, diagnostics, and outcomes of patients
     presenting with acute respiratory illness: a comparison of patients
@@ -63,11 +104,6 @@ title: Publications
     Isolate from Bangladesh.** Saha, S., et al. *Microbiology Resource*
     Announcements (2020).
     [{Journal}](https://mra.asm.org/content/9/24/e00568-20.abstract)
-
--   **Temporal Airway Microbiome Changes Related to Ventilator
-    Associated Pneumonia in Children.** Mourani, P., et al. *European
-    Respiratory Journal* (2020).
-    [{Journal}](https://erj.ersjournals.com/content/early/2020/09/09/13993003.01829-2020.abstract)
 
 -   **Sepsis from an apheresis platelet contaminated with
     Acinetobacter calcoaceticus/baumannii complex bacteria and
