@@ -3,7 +3,13 @@ layout: default
 title: Publications
 ---
 
-### Publications
+### Ph.D. Thesis
+
+-   **One and Two Locus Likelihoods Under Complex Demography.**  
+    Statistics, UC Berkeley, December 2015. 
+    [{pdf}](/assets/thesis.pdf)
+
+### Papers
 
 - **Viral Detection by Reverse Transcriptase Polymerase Chain Reaction
   in Upper Respiratory Tract and Metagenomic RNA Sequencing in Lower
@@ -17,8 +23,8 @@ title: Publications
   Mick, E.\*, Tsitsiklis, A.\*, Kamm, J.\*, ..., Mourani, P.,
   Langelier, C. *Journal of Clinical Investigation* (2023).
   [{Journal}](https://www.jci.org/articles/view/165904)
-  [{Code}](https://github.com/eranmick/pediatric-mNGS-LRTI-classifier)
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2022.12.01.22282994v1.full)
+  [{Code}](https://github.com/eranmick/pediatric-mNGS-LRTI-classifier)
 
 - **A 2-Gene Host Signature for Improved Accuracy of COVID-19
   Diagnosis Agnostic to Viral Variants**. Albright, J. et
@@ -145,7 +151,7 @@ title: Publications
     [{Software: momi2}](https://github.com/popgenmethods/momi2)
 
 -  **The first horse herders and the impact of early Bronze Age steppe expansions into Asia.**
-   de Barros Damgaard, P., Martiniano, R., Kamm, J., Moreno-Mayar, J. V., ... Durbin, R., and Willerslev, E.
+   de Barros Damgaard, P.\*, Martiniano, R.\*, Kamm, J.\*, Moreno-Mayar, J. V.\*, ... Durbin, R., and Willerslev, E.
    *Science* (2018).
    [{Journal}](http://science.sciencemag.org/content/early/2018/05/08/science.aar7711)
 
@@ -207,12 +213,6 @@ title: Publications
     *Advances in Applied Probability*, 44 (2012) 408-428. 
     [{Journal}](http://projecteuclid.org/euclid.aap/1339878718)
     [{Preprint}](http://arxiv.org/abs/1109.2386)
-
-### Ph.D. Thesis
-
--   **One and Two Locus Likelihoods Under Complex Demography.**  
-    Statistics, UC Berkeley, December 2015. 
-    [{pdf}](/assets/thesis.pdf)
 
 ### Posters
 
