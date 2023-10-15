@@ -90,7 +90,7 @@ title: Publications
 - **Upper airway gene expression differentiates COVID-19 from other
   acute respiratory illnesses and reveals suppression of innate immune
   responses by SARS-CoV-2.** Mick, E.\*, Kamm, J.\*, Pisco, A., ...,
-  Kistler, A.\*, Langelier, C.\* *Nature Communications* (2020).
+  Kistler, A., Langelier, C. *Nature Communications* (2020).
   [{Journal}](https://www.nature.com/articles/s41467-020-19587-y)
   [{Code}](https://github.com/czbiohub/covid19-transcriptomics-pathogenesis-diagnostics-results)
   [{Preprint}](https://www.medrxiv.org/content/10.1101/2020.05.18.20105171v4)
