@@ -11,6 +11,11 @@ title: Publications
 
 ### Papers
 
+- **Fine-scale cellular deconvolution via generalized maximum entropy
+  on canonical correlation features**. Kamm, J. *BioRxiv* (2024).
+  [{Preprint}](https://www.biorxiv.org/content/10.1101/2024.06.07.598010v1)
+  [{Code}](https://github.com/genentech/quipcell)
+
 - **Viral Detection by Reverse Transcriptase Polymerase Chain Reaction
   in Upper Respiratory Tract and Metagenomic RNA Sequencing in Lower
   Respiratory Tract in Critically Ill Children With Suspected Lower
