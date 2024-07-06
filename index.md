@@ -20,13 +20,10 @@ packages on the
 
 #### Selected publications
 
-- **Integrated host/microbe metagenomics enables accurate lower
-  respiratory tract infection diagnosis in critically ill children.**
-  Mick, E.\*, Tsitsiklis, A.\*, Kamm, J.\*, ..., Mourani, P.,
-  Langelier, C. *Journal of Clinical Investigation* (2023).
-  [{Journal}](https://www.jci.org/articles/view/165904)
-  [{Preprint}](https://www.medrxiv.org/content/10.1101/2022.12.01.22282994v1.full)
-  [{Code}](https://github.com/eranmick/pediatric-mNGS-LRTI-classifier)
+- **Fine-scale cellular deconvolution via generalized maximum entropy
+  on canonical correlation features**. Kamm, J. *BioRxiv* (2024).
+  [{Preprint}](https://www.biorxiv.org/content/10.1101/2024.06.07.598010v1)
+  [{Code}](https://github.com/genentech/quipcell)
 
 - **Upper airway gene expression differentiates COVID-19 from other
   acute respiratory illnesses and reveals suppression of innate immune
