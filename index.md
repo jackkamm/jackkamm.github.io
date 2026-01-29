@@ -20,10 +20,10 @@ packages on the
 
 #### Selected publications
 
-- **Fine-scale cellular deconvolution via generalized maximum entropy
-  on canonical correlation features**. Kamm, J. *BioRxiv* (2024).
-  [{Preprint}](https://www.biorxiv.org/content/10.1101/2024.06.07.598010v1)
-  [{Code}](https://github.com/genentech/quipcell)
+- **Fishash: A contingency table approach to Perturb-seq guide
+  assignment.** Kamm, J., Yeung, J., and Forrest, W. *BioRxiv* (2026).
+  [{Preprint}](https://www.biorxiv.org/content/10.64898/2026.01.22.701179v1)
+  [{Code}](https://github.com/jackkamm/fishash)
 
 - **Upper airway gene expression differentiates COVID-19 from other
   acute respiratory illnesses and reveals suppression of innate immune
