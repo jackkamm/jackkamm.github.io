@@ -11,6 +11,11 @@ title: Publications
 
 ### Papers
 
+- **Linking live-cell behavior to transcriptional responses across
+  perturbations using dynamic caging.** Orcutt-Jahns, B. et
+  al. *BioRxiv* (2026).
+  [{Preprint}](https://www.biorxiv.org/content/10.64898/2026.05.05.723043v1)
+
 - **Fishash: A contingency table approach to Perturb-seq guide
   assignment.** Kamm, J., Yeung, J., and Forrest, W. *BioRxiv* (2026).
   [{Preprint}](https://www.biorxiv.org/content/10.64898/2026.01.22.701179v1)

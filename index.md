@@ -45,13 +45,6 @@ packages on the
    *Science* (2018).
    [{Journal}](http://science.sciencemag.org/content/early/2018/05/08/science.aar7711)
 
-- **Robust and scalable inference of population history from hundreds
-  of unphased whole genomes.** 
-  Terhorst, J., Kamm, J.A., and Song, Y.S.
-  *Nature Genetics*, Vol. 49 (2017) 303-309. 
-  [{Journal}](http://dx.doi.org/10.1038/ng.3748)
-  [{Software: SMC++}](https://github.com/popgenmethods/smcpp)
-
 - **The site frequency spectrum for general coalescents.** 
   Spence, J.\*, Kamm, J.A.\*, and Song, Y.S.  
   *Genetics*, Vol. 202 No. 4 (2016) 1549-1561. 
